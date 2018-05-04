@@ -7,7 +7,7 @@ var createFileWrapper = function() {
 
         // Node JS
         if (self.isNode(file)) {
-            self.fs = require('fs');
+            /*self.fs = require('fs');
 
             var StringDecoder = require('string_decoder').StringDecoder;
             self.string_decoder = new StringDecoder(encoding);
@@ -29,7 +29,7 @@ var createFileWrapper = function() {
 
             self.getSize = function() {
                 return self.fs.statSync(file)["size"];
-            };
+            };*/
         } 
 
         // HTML5 File
